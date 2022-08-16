@@ -23,7 +23,7 @@ if (idadedoparticipante >= 18) {
 console.log("----------------------------------------------------------------------------------")
 
 if (participantes.length < 100) { 
-    console.log(participantes)
+    console.log(participantes);
     console.log("Prosseguir cadastramento para o evento");
 } else { 
     console.log("Cadastramento não autorizado devido ao excesso de cadastros");
@@ -31,8 +31,8 @@ if (participantes.length < 100) {
 
 console.log("----------------------------------------------------------------------------------")
 
-do {participantes.push("Márcio")
-    console.log(participantes)
+do {participantes.push("Márcio");
+    console.log(participantes);
     
 } while (participantes < 100, dataISODataHoraTmz > dataAtual, participantes < 100);
 
@@ -44,10 +44,10 @@ for (let index = 0; index < participantes.length; index++) {
     if (index  == 0 ) {console.log(participantes[index] + " Organizador do Evento");
 
 }   else if (index % 2 == 0) {
-    console.log(participantes[index] + " Palestrante")
+    console.log(participantes[index] + " Palestrante");
 }
     else {
-    console.log(participantes[index] + " Participante")
+    console.log(participantes[index] + " Participante");
 
 }
     
