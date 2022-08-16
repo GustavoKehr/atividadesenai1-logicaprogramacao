@@ -1,10 +1,10 @@
 🕳 Código de cadastramento para um evento 🕳
 
-Linha de códigos basicos com CONST/LET      IF/ELSE IF
+Linha de códigos basicos com LET, IF/ELSE, DO/WHILE e FOR
 
 🕳 Código para cadastramento para evento, se a data for posterior a data de cadastro permitir cadastro, se a idade do participante for >=18 permitir cadastramento, se a quantidade de participantes for < 100 permitir cadastramento e adicionar a lsita de convidados 🕳
 
-![vsc](https://user-images.githubusercontent.com/106829052/183623739-381123be-251a-45ce-92ac-4c954d570c43.PNG)
+![unknown](https://user-images.githubusercontent.com/106829052/184783272-2c98499b-3de3-4241-8f7d-9bd8d145af97.jpg)
 
 🕳 Fluxograma do cadastramento 🕳
 
