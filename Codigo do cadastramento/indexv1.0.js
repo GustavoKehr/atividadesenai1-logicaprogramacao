@@ -1,13 +1,14 @@
-let dataAtual = new Date (2022,8,14);
-let dataEvento = new Date(2022,11,12);
-let participantes = ["Gustavo", "Carlos", "Adriano", "Cintia", "Gabriela"]
+let dataAtual = new Date (2022,7,14);
+let dataISODataHoraTmz = new Date("2022-12-12T15:00:00-03:00");
+let participantes = ["Gustavo", "Carlos", "Adriano", "Cintia", "Gabriela"];
 let idadedoparticipante = 18;
 
 console.log("----------------------------------------------------------------------------------")
 console.log("------------------------------Inicio do cadastramento-----------------------------")
+console.log("-------------" + dataAtual + "-----------")
 console.log("----------------------------------------------------------------------------------")
 
-if (dataEvento > dataAtual) { 
+if (dataISODataHoraTmz > dataAtual) { 
     console.log("Prosseguir cadastramento para o evento");
  } else { 
     console.log("Cadastremento não autorizado devido a data invalida"); }
@@ -30,10 +31,31 @@ if (participantes.length < 100) {
 
 console.log("----------------------------------------------------------------------------------")
 
-if (participantes < 100, dataEvento > dataAtual, participantes < 100); {
-    console.log("O cadastro pode ser realizado")
-    participantes++
-    console.log(participantes.length)
+do {participantes.push("Márcio")
+    console.log(participantes)
+    
+} while (participantes < 100, dataISODataHoraTmz > dataAtual, participantes < 100);
+
+console.log("----------------------------------------------------------------------------------")
+
+
+for (let index = 0; index < participantes.length; index++) {
+    console.log(index);
+    if (index  == 0 ) {console.log(participantes[index] + " Organizador do Evento");
+
+}   else if (index % 2 == 0) {
+    console.log(participantes[index] + " Palestrante")
+}
+    else {
+    console.log(participantes[index] + " Participante")
+
+}
+    
 }
 
+console.log("--------------------------------Cadastro realizado--------------------------------")
+
+console.log("----------------------------------------------------------------------------------")
 console.log("-------------------------------Fim do Cadastramento-------------------------------")
+console.log("---" + "📅 Data do Evento ( " + dataISODataHoraTmz + "-")
+console.log("----------------------------------------------------------------------------------")
